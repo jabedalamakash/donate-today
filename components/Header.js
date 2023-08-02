@@ -11,7 +11,7 @@ const Header = () => {
                 alt='bg image'
                 width={1440}
                 height={1000}
-                layout='responsive'
+                // layout='responsive'
                 // objectFit='cover'objectPosition='center'
                 className='absolute min-h-max sm:w-screen  sm:h-screen bg-gradient-to-b block  from-[rgba(0,0,0,0.2)] bg-cover bg-center  to-[rgba(0,0,0,1)] mx-auto '
                 // bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgba(0,0,0,1)]

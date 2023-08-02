@@ -5,7 +5,7 @@ const Pricing = () => {
     return (
       <div>
             <section className='mt-20'>
-            <div className='text-center container'>
+            <div className='text-center container mx-auto'>
             <h1 className='mb-4 text-5xl font-bold'>Donate Today</h1>
             <p className='mb-4 px-10 text-xl sm:mx-[400px] text-thin'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quia ab  minima eligendi! Ratione laudantium reprehenderit esse. Aperiam, repellat beatae.</p>
             <div className='mx-auto'>
