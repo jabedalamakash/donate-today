@@ -13,7 +13,7 @@ const Header = () => {
                 height={600}
                 // layout='responsive'
                 // objectFit='cover'objectPosition='center'
-                className='absolute w-full h-[50%] object-center object-cover opacity-80 mx-auto '
+                className='absolute w-full h-full object-center object-cover opacity-80 mx-auto '
                 // bg-gradient-to-b from-[rgba(0,0,0,0.2)] to-[rgba(0,0,0,1)]
                 
 
