@@ -9,9 +9,11 @@ const Gallery = () => {
 
 
                     <div className='flex flex-col mx-auto p-10 sm:p-20 justify-center sm:flex-row items-center'>
-                        <div className='sm:w-1/2 mb-5 sm:mb-0 sm:mr-[300px]'>
+
+
+                        <div className='sm:w-1/2 mb-5 text-center sm:text-left sm:mb-0 sm:mr-[300px]'>
                             <h1 className='text-5xl mb-5 tracking-tighter font-bold'>Their lives depend on your donation.</h1>
-                            <p className='text-xl mb-5 sm:p-0 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
+                            <p className='text-xl mb-2 sm:mb-5 sm:p-0 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
                             <br/>
                             <br/>
                             
@@ -22,7 +24,7 @@ const Gallery = () => {
                         </div>
 
 
-                        <div className='sm:w-1/2 mx-auto '>
+                        <div className='w-full sm:w-1/2 mx-auto '>
                             <Image
                             src="/donation10.jpg"
                             width={200}
@@ -40,7 +42,7 @@ const Gallery = () => {
 
                     <div className='flex flex-col p-10  sm:p-20 sm:flex-row sm:items-center'>
 
-                    <div className='sm:w-1/2'>
+                    <div className='w-full sm:w-1/2'>
                             <Image
                             src="/donation0.jpg"
                             width={200}
@@ -53,9 +55,9 @@ const Gallery = () => {
 
                         </div>
                         
-                        <div className='sm:w-1/2 mt-5  sm:ml-[300px]'>
+                        <div className='w-full sm:w-1/2 mt-5 text-center sm:text-left   sm:ml-[300px]'>
                             <h1 className='text-5xl mb-5 -tracking-tighter font-bold'>They need us to survive.</h1>
-                            <p className='text-xl mb-5 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
+                            <p className='text-xl mb-2 sm:mb-5 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
                             <br/>
                             <br/>
                             

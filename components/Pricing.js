@@ -7,7 +7,7 @@ const Pricing = () => {
             <section className='mb-20'>
             <div className='text-center container mx-auto'>
             <h1 className='mb-4 text-5xl font-bold'>Donate Today</h1>
-            <p className='mb-4 px-10 text-xl w-full sm:w-[50%] mx-auto text-thin'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quia ab  minima eligendi! Ratione laudantium reprehenderit esse. Aperiam, repellat beatae.</p>
+            <p className='mb-10 px-10 text-xl w-full sm:w-[50%] mx-auto text-thin'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quia ab  minima eligendi! Ratione laudantium reprehenderit esse. Aperiam, repellat beatae.</p>
             <div className='mx-auto'>
                 <div className='flex flex-col  sm:m-0 sm:flex-row justify-center sm:mx-0 mx-20 mb-4'>
                 <h3 className='bg-gray-300 mb-2  text-xl font-bold p-5 sm:mr-2 text-gray-800 rounded hover:text-orange-600 hover:border-2 hover:transition hover:border-red-600 '>100TK</h3>
