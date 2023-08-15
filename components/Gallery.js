@@ -5,13 +5,13 @@ import Image from 'next/image';
 const Gallery = () => {
     return (
         <div>
-                     <div className='container mx-auto p-10'>
+                     <div className='w-full px-10 sm:px-0 mb-20 mx-auto sm:w-[80%]'>
 
 
-                    <div className='flex flex-col mx-auto p-10 sm:p-20 justify-center sm:flex-row items-center'>
+                    <div className='flex flex-col mb-20  justify-center sm:flex-row items-center'>
 
 
-                        <div className='sm:w-1/2 mb-5 text-center sm:text-left sm:mb-0 sm:mr-[300px]'>
+                        <div className='sm:w-1/2 w-full mb-10 sm:mb-0 text-center sm:text-left sm:mr-[100px]'>
                             <h1 className='text-5xl mb-5 tracking-tighter font-bold'>Their lives depend on your donation.</h1>
                             <p className='text-xl mb-2 sm:mb-5 sm:p-0 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
                             <br/>
@@ -40,7 +40,8 @@ const Gallery = () => {
 
                     </div>
 
-                    <div className='flex flex-col p-10  sm:p-20 sm:flex-row sm:items-center'>
+
+                    <div className='flex flex-col sm:flex-row sm:items-center'>
 
                     <div className='w-full sm:w-1/2'>
                             <Image
@@ -55,7 +56,7 @@ const Gallery = () => {
 
                         </div>
                         
-                        <div className='w-full sm:w-1/2 mt-5 text-center sm:text-left   sm:ml-[300px]'>
+                        <div className='w-full sm:w-1/2 mt-10 sm:mt-0 text-center sm:text-left   sm:ml-[100px]'>
                             <h1 className='text-5xl mb-5 -tracking-tighter font-bold'>They need us to survive.</h1>
                             <p className='text-xl mb-2 sm:mb-5 font-thin '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis tenetur deserunt blanditiis ea atque hic maiores quos. Voluptatum, quod vitae?</p>
                             <br/>

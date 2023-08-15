@@ -3,9 +3,11 @@ import React from 'react';
 
 const Donateplan = () => {
     return (
-        <div className='container mx-auto mt-10 p-10 sm:p-20'>
+        <div className=' w-full sm:w-[80%] mb-20 px-10 sm:px-0 mx-auto'>
                     <h2 className='text-center font-bold text-5xl mb-5'>Our Donate Plan</h2>
-                    <p className='text-center px-5 w-full sm:w-[50%] mx-auto text-xl text-thin mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eaque. Saepe ad doloremque accusamus voluptas omnis dolore distinctio earum temporibus.</p>
+                    <p className='text-center w-full sm:w-[50%] mx-auto text-xl text-thin mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eaque. Saepe ad doloremque accusamus voluptas omnis dolore distinctio earum temporibus.</p>
+                   
+                   
                     <div className='flex mb-2 sm:mb-0 flex-col sm:flex-row'>
                         <div className=' p-10 bg-sky-200 rounded'>
                             <Image 
@@ -36,7 +38,7 @@ const Donateplan = () => {
                             height={50}
                             alt="icon"
                         
-                            className="mb-0 sm:mb-5"/>
+                            className="mb-5 "/>
                             <h6 className='mb-5 font-bold text-3xl'>Education For a Family</h6>
                             <p className='font-thin text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur repudiandae quasi tenetur laudantium voluptas aliquid dolorem voluptates, molestiae deserunt.</p>
                              </div>
