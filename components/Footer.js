@@ -11,7 +11,7 @@ const pacifico = Pacifico({
 
 const Footer = () => {
     return (
-      <div className='bg-black text-center p-10'>
+      <div className='bg-black w-full text-center p-10'>
 
             <div className=' text-red-600 text-3xl mb-5 sm:text-5xl  '>
             <h1 className={pacifico.className} > Be Humble</h1>
